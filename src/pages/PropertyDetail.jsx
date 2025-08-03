@@ -44,12 +44,20 @@ function PropertyDetail() {
   };
 
   const handleImageUpload = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onloadend = () => setForm({ ...form, previewImage: reader.result });
-    reader.readAsDataURL(file);
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onloadend = () => {
+    setForm((prev) => ({
+      ...prev,
+      image: file, // ✅ actual File object for upload
+      previewImage: reader.result, // optional preview
+    }));
   };
+  reader.readAsDataURL(file);
+};
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -148,3 +156,4 @@ function PropertyDetail() {
 }
 
 export default PropertyDetail;
+

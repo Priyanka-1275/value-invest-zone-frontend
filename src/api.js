@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://value-invest-zone-20nq.onrender.com'; // Deployed backend
+const API_BASE_URL ='https://value-invest-zone-20nq.onrender.com'; // Deployed backend
 
 export const uploadProperty = async (propertyData) => {
   const formData = new FormData();
@@ -21,4 +21,5 @@ export const fetchAllProperties = async () => {
   const response = await axios.get(`${API_BASE_URL}/api/properties`);
   return response.data;
 };
+
 

@@ -1,0 +1,117 @@
+.container {
+  padding: 2rem;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.role-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.role-switch button {
+  margin: 0 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-switch .active-role {
+  background-color: #007bff;
+  color: white;
+}
+
+.carousel-container {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 1.10rem;
+  font-size: 1.10rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.seller-form-container {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: rgba(45, 42, 42, 0.3); /* ⬅️ Very transparent dark background */
+  backdrop-filter: blur(4px); /* Optional: adds blur to background behind it */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional: adds soft shadow */
+}
+
+
+.seller-form input,
+.seller-form textarea,
+.seller-form button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.seller-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.property-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgb(173, 180, 180);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.property-card h3 {
+  margin-top: 0;
+}
+
+.property-card a {
+  color: #007bff;
+  text-decoration: underline;
+}

@@ -1,0 +1,159 @@
+.hero-section {
+  background: linear-gradient(to right, #e9f0fc, #f4f8ff);
+  padding: 60px 20px 40px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-content h1 {
+  margin-bottom: 28px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #003b6f;
+  letter-spacing: 0.6px;
+}
+
+.tabs {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tabs button {
+  padding: 12px 28px;
+  border: 2px solid #003b6f;
+  background-color: #fff;
+  color: #003b6f;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tabs button.active,
+.tabs button:hover {
+  background-color: #003b6f;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 59, 111, 0.3);
+}
+
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 14px 18px;
+  width: 60%;
+  max-width: 500px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #003b6f;
+  box-shadow: 0 0 0 2px rgba(0, 59, 111, 0.2);
+}
+
+.search-bar button {
+  padding: 14px 24px;
+  background-color: #003b6f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #002b55;
+}
+
+/* 🏡 Property Grid Cards */
+.property-grid {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.property-card {
+  width: 260px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.property-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.property-card h4 {
+  font-size: 1.1rem;
+  color: #003b6f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.property-card p {
+  color: #444;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* ❌ No Results Message */
+.no-results {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: crimson;
+  font-weight: 600;
+}
+
+/* 📱 Mobile Friendly */
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+
+  .property-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}

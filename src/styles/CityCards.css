@@ -1,0 +1,43 @@
+.city-cards {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.city-cards h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.city-card {
+  width: 180px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.city-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.city-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.city-card p {
+  margin: 10px;
+  font-weight: 500;
+}

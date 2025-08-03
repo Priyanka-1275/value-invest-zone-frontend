@@ -1,0 +1,147 @@
+/* Root Page Layout */
+.about-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f7f9fc;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+/* Headings */
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+  color: #222;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Section Containers */
+.about-page section {
+  margin-bottom: 3rem;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Paragraphs */
+.company-intro p,
+.company-story p,
+.services-offered p,
+.mission-vision p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #444;
+}
+
+/* Core Values and Services List */
+.core-values ul,
+.services-offered ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.core-values li,
+.services-offered li {
+  background-color: #f0f0f5;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  width: fit-content;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.core-values li:hover,
+.services-offered li:hover {
+  background-color: #e0e0eb;
+}
+
+/* Founders Section */
+.team-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-box img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-info {
+  max-width: 500px;
+}
+
+.team-info h3 {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+/* Certification Section */
+.cert-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.cert-item {
+  background-color: #f8f9fb;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cert-item:hover {
+  transform: scale(1.05);
+}
+
+.cert-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.cert-item p {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .team-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .core-values ul,
+  .services-offered ul {
+    align-items: flex-start;
+  }
+
+  .core-values li,
+  .services-offered li {
+    width: 100%;
+  }
+
+  .cert-item {
+    width: 100%;
+  }
+}

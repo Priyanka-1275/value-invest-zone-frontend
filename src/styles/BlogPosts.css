@@ -1,0 +1,115 @@
+.blog-section {
+  background: #ffffff;
+  padding: 4rem 1rem;
+  position: relative;
+}
+
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.blog-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 2rem;
+}
+
+/* Scroll Arrows */
+.scroll-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  z-index: 10;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.scroll-btn {
+  background: white;
+  border: none;
+  font-size: 1.6rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 50%;
+  color: #4f46e5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  pointer-events: all;
+  transition: background 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: #e0e7ff;
+}
+
+/* Scroll Wrapper */
+.blog-scroll-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+.blog-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Blog Card — equal height guaranteed */
+.blog-card {
+  background: white;
+  border-radius: 1rem;
+  min-width: 300px;
+  max-width: 300px;
+  height: 420px; /* ✅ Fixed Height */
+  flex: 0 0 auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+}
+
+.blog-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.blog-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title consistent height */
+.blog-title {
+  font-size: 1.1rem;
+  color: #4f46e5;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  min-height: 48px; /* same height for title block */
+  line-height: 1.2;
+}
+
+/* Excerpt consistent height */
+.blog-excerpt {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.4;
+  flex-grow: 1;
+  min-height: 72px; /* force consistent layout */
+}

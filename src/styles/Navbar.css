@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #03152e;
+  padding: 14px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Logo styling */
+.navbar-logo a {
+  color: #f8f6f7;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo a:hover {
+  color: #00e0ff;
+}
+
+/* Navigation links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Reduced spacing */
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual link items */
+.navbar-links li {
+  display: flex;
+  align-items: center;
+}
+
+/* Link styling */
+.navbar-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.96rem;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hover effects */
+.navbar-links li a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #00e6ff;
+  backdrop-filter: blur(4px);
+  transform: scale(1.05);
+}

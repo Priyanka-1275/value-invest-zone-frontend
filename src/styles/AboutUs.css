@@ -1,0 +1,155 @@
+/* ========= AboutUs.css ========= */
+
+.about-us-section {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  max-width: 1140px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease;
+}
+
+/* 🎯 Animated Gradient Heading */
+.about-heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(90deg, #1976d2, #0d47a1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-heading::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #1976d2;
+  margin: 14px auto 0;
+  border-radius: 30px;
+  transition: width 0.4s ease;
+}
+
+.about-heading:hover::after {
+  width: 120px;
+}
+
+/* 🧾 Paragraphs */
+.about-us-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 22px;
+  color: #2c3e50;
+  transition: transform 0.3s ease;
+}
+
+.about-us-section p:hover {
+  transform: translateX(2px);
+}
+
+/* 🔲 Section Grid Layout */
+.mission-vision-values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  margin-top: 50px;
+}
+
+/* 🧊 Glass-effect Interactive Card */
+.mv-block {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  padding: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.35s ease-in-out;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: relative;
+}
+
+.mv-block:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 14px 40px rgba(25, 118, 210, 0.15);
+}
+
+/* 🧩 Subheadings */
+.mv-block h3 {
+  font-size: 1.4rem;
+  color: #0d47a1;
+  margin-bottom: 14px;
+  font-weight: 700;
+  position: relative;
+  padding-left: 24px;
+}
+
+.mv-block h3::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #1976d2;
+  font-size: 1.2rem;
+}
+
+.mv-block p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.65;
+}
+
+/* 🏷️ Values List */
+.values-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin-top: 14px;
+  list-style: none;
+}
+
+.values-list li {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #0d47a1;
+  transition: transform 0.2s ease, background 0.2s ease;
+  cursor: default;
+}
+
+.values-list li:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #bbdefb, #e3f2fd);
+  animation: bounce 0.4s ease;
+}
+
+/* ✨ Fade Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🪩 Bounce animation */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.13);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

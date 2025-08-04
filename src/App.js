@@ -12,7 +12,9 @@ import Testimonials from './components/Testimonials';
 import BlogPosts from './components/BlogPosts';
 import BrochureSection from './data/BrochureSection'; // ✅ Brochure Import
 import Footer from './components/Footer';
-
+import AboutPage from './pages/AboutPage';
+import PropertyDetail from './pages/PropertyDetail'; // Buyer/Seller page
+import PropertyView from './pages/PropertyView';
 import PropertyListings from './pages/PropertyListings';
 import ContactPage from './pages/Contact';
 import BlogSection from './pages/Blog';

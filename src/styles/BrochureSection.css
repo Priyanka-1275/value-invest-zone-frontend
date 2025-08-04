@@ -1,0 +1,41 @@
+.brochure-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.brochure-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.brochure-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brochure-button {
+  padding: 14px 36px;
+  font-size: 1rem;
+  background-color: #03152e;
+  color: rgb(255, 255, 255);
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.brochure-button:hover {
+  background-color: #03152e;
+  transform: translateY(-2px);
+}

@@ -15,7 +15,7 @@ const blogPosts = [
   {
     title: "Benefits of Living in a Gated Community",
     excerpt: "Explore why gated communities are preferred by families and working professionals alike.",
-    image: "https://images.unsplash.com/photo-1600585154217-3531b1d67c9d?auto=format&fit=crop&w=800&q=60",
+    image: "https://www.wisdomproperties.com/uploads/blog/image_166392624514.webp",
   },
   {
     title: "Real Estate Trends in Tier 2 Cities",
@@ -25,12 +25,12 @@ const blogPosts = [
   {
     title: "Home Loans Explained Simply",
     excerpt: "Understand home loans and choose the best one without any confusion.",
-    image: "https://images.unsplash.com/photo-1600585154274-2b6431f1d5d5?auto=format&fit=crop&w=800&q=60",
+    image: "https://www.bankofbaroda.in/-/media/project/bob/countrywebsites/india/blogs/cluster/23-01/key-benefits-of-taking-a-home-loan.jpg",
   },
   {
     title: "Interior Design Trends of the Year",
     excerpt: "Affordable and elegant interiors to transform your new home beautifully.",
-    image: "https://images.unsplash.com/photo-1600585154354-753cd7fef16b?auto=format&fit=crop&w=800&q=60",
+    image: "https://georgeconstructions.com/wp-content/uploads/2025/01/2025-Interior-Design-Trends-These-Are-The-Top-20-Hottest.jpg",
   },
 ];
 
@@ -69,3 +69,4 @@ const BlogPosts = () => {
 };
 
 export default BlogPosts;
+

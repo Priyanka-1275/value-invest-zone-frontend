@@ -162,30 +162,7 @@ const PropertyListings = () => {
       location: 'Poranki, Vijayawada',
       price: '₹36 Lakhs',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_jL7nCDwIKKZXimLdp9B7436cjEJxOniMg&s'
-    },{
-      title: 'Open Residential Plot',
-      location: 'Ibrahimpatnam, Vijayawada',
-      price: '₹25 Lakhs',
-      image: 'https://source.unsplash.com/featured/?land1'
     },
-    {
-      title: 'Corner Plot 200 Sq.Yards',
-      location: 'Gollapudi, Vijayawada',
-      price: '₹32 Lakhs',
-      image: 'https://source.unsplash.com/featured/?land2'
-    },
-    {
-      title: 'East Facing Plot',
-      location: 'Vidhyadharapuram, Vijayawada',
-      price: '₹28 Lakhs',
-      image: 'https://source.unsplash.com/featured/?land3'
-    },
-    {
-      title: 'DTCP Approved Plot',
-      location: 'Penamaluru, Vijayawada',
-      price: '₹35 Lakhs',
-      image: 'https://source.unsplash.com/featured/?land4'
-    }
   ];
 
   const renderProperties = (list) =>
@@ -230,4 +207,5 @@ const PropertyListings = () => {
 };
 
 export default PropertyListings;
+
 

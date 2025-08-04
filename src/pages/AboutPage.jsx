@@ -46,7 +46,7 @@ const AboutPage = () => {
       <section className="team-founders">
         <h2>Meet the Visionaries</h2>
         <div className="team-box">
-          <img src="https://via.placeholder.com/300x200?text=Founders" alt="Founders" />
+          <img src="https://media.istockphoto.com/id/1340143989/photo/close-up-hands-of-businessman-and-woman-people-group-meeting-in-office-employee-brainstorm.jpg?s=612x612&w=0&k=20&c=n2UjjihptZ3eFpahJgRuVq49UhQJFoRUQsUQQs9zvww=" alt="Founders" />
           <div className="team-info">
             <h3>Ravi Kumar & Sneha Sharma</h3>
             <p>
@@ -77,15 +77,15 @@ const AboutPage = () => {
         <h2>Certifications & Credentials</h2>
         <div className="cert-list">
           <div className="cert-item">
-            <img src="https://via.placeholder.com/150x100?text=RERA+Certified" alt="RERA" />
+            <img src="https://media.istockphoto.com/id/1400087189/photo/top-quality-service-guarantee-and-iso-certification-and-standardization-idea-emblazoned-on.jpg?s=612x612&w=0&k=20&c=VsBQPcg6y3VFmA7o8b83_qu3hlZCAoCzhqGJ_sI9ow8=" alt="RERA" />
             <p>Registered Under RERA</p>
           </div>
           <div className="cert-item">
-            <img src="https://via.placeholder.com/150x100?text=ISO+Certified" alt="ISO Certified" />
+            <img src="https://media.istockphoto.com/id/1397549690/photo/reading-the-contracts-terms-and-conditions-and-privacy-policy-businessman-making-a-deal-the.jpg?s=612x612&w=0&k=20&c=s2YwLrxYVeaaqaABI54NFI0PZv0s8TTTm-63VOdhFrY=" alt="ISO Certified" />
             <p>ISO 9001:2015 Quality Certified</p>
           </div>
           <div className="cert-item">
-            <img src="https://via.placeholder.com/150x100?text=Certified+Advisor" alt="Consultant" />
+            <img src="https://media.istockphoto.com/id/1477334129/photo/online-business-contract-electronic-signature-e-signing-digital-document-management-paperless.jpg?s=612x612&w=0&k=20&c=IVNrDVI5qUdbxIg0j4dn3CeJsNwOYRYbaDhu9K6hx5M=" alt="Consultant" />
             <p>Certified Property Advisors</p>
           </div>
         </div>
@@ -108,3 +108,4 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+

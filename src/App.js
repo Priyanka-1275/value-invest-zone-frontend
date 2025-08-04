@@ -10,7 +10,7 @@ import FeaturedProjects from './components/FeaturedProjects';
 import AboutUs from './components/AboutUs';
 import Testimonials from './components/Testimonials';
 import BlogPosts from './components/BlogPosts';
-import BrochureSection from './components/BrochureSection'; // ✅ Brochure Import
+import BrochureSection from './data/BrochureSection'; // ✅ Brochure Import
 import Footer from './components/Footer';
 
 import PropertyListings from './pages/PropertyListings';

@@ -60,3 +60,67 @@
   backdrop-filter: blur(4px);
   transform: scale(1.05);
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 1rem 2rem;
+  color: white;
+  position: relative;
+}
+
+.navbar-logo a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.view-more-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #0051a3;
+}
+
+.navbar-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 2rem;
+  background-color: #ffffff;
+  color: #333;
+  list-style: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.navbar-dropdown li {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-dropdown li:last-child {
+  border-bottom: none;
+}
+
+.navbar-dropdown a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-dropdown a:hover {
+  text-decoration: underline;
+}

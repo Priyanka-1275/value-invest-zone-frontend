@@ -12,7 +12,7 @@ import FeaturedProjects from './components/FeaturedProjects';
 import AboutUs from './components/AboutUs';
 import Testimonials from './components/Testimonials';
 import BlogPosts from './components/BlogPosts';
-import BrochureSection from './components/BrochureSection'; // ✅ From 1st code
+import BrochureSection from './data/BrochureSection'; // ✅ From 1st code
 import Footer from './components/Footer';
 
 // Pages

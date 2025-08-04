@@ -163,6 +163,18 @@ const PropertyListings = () => {
       price: '₹36 Lakhs',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_jL7nCDwIKKZXimLdp9B7436cjEJxOniMg&s'
     },
+   {
+  title: 'Spacious South Facing Plot',
+  location: 'Enikepadu, Vijayawada',
+  price: '₹42 Lakhs',
+  image: 'https://img.staticmb.com/mbcontent/images/crop/uploads/2021/6/measure-the-plot-at-first_0_1200.jpg.webp'
+},
+    {
+  title: 'West Facing Residential Plot',
+  location: 'Gannavaram, Vijayawada',
+  price: '₹29 Lakhs',
+  image: 'https://smartscalehousedesign.com/wp-content/uploads/2023/05/40x60-house-plan-smartscale-design.png'
+},
   ];
 
   const renderProperties = (list) =>
@@ -207,5 +219,6 @@ const PropertyListings = () => {
 };
 
 export default PropertyListings;
+
 
 

@@ -5,27 +5,27 @@ const CityCards = () => {
   const cities = [
     {
       name: 'Vijayawada',
-      image: 'https://images.unsplash.com/photo-1632222160475-e0dfd67a758d?auto=format&fit=crop&w=800&q=60'
+      image: 'https://imagecdn.99acres.com/media1/29939/9/598789453M-1747993278115.webp'
     },
     {
       name: 'Amaravati',
-      image: 'https://images.unsplash.com/photo-1582885116383-c0920e7ee9ff?auto=format&fit=crop&w=800&q=60'
+      image: 'https://housing-images.n7net.in/012c1500/fb49f839e2fc405836531d79dd0646f5/v0/medium.jpeg'
     },
     {
       name: 'Benz Circle',
-      image: 'https://images.unsplash.com/photo-1593951517987-2a7c9b56d2e0?auto=format&fit=crop&w=800&q=60'
+      image: 'https://housing-images.n7net.in/4f2250e8/b23a1094a1ffe05783fb94c9de2da6ab/v5/medium/pavan_meadows-benz_circle-vijayawada-pavan_builders_%26_developers.jpg'
     },
     {
       name: 'Gannavaram',
-      image: 'https://images.unsplash.com/photo-1616587895721-182a59c10e31?auto=format&fit=crop&w=800&q=60'
+      image: 'https://imagecdn.99acres.com/media1/19987/2/399742430M-1744905383392.jpg'
     },
     {
       name: 'Poranki',
-      image: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=60'
+      image: 'https://imagecdn.99acres.com/media1/28749/5/574985141M-1741178067912.webp'
     },
     {
       name: 'Tadepalli',
-      image: 'https://images.unsplash.com/photo-1563284202-9a13625c6c59?auto=format&fit=crop&w=800&q=60'
+      image: 'https://dyimg1.realestateindia.com/prop_images/1846256/903921_1-350x350.jpg'
     }
   ];
 
@@ -45,3 +45,4 @@ const CityCards = () => {
 };
 
 export default CityCards;
+
